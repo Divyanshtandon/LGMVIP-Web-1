@@ -4,9 +4,9 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #ee0979;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ee0979;  
+  background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  
+  background: linear-gradient(to right, #ff6a00, #ee0979); 
 
 }
 
@@ -85,7 +85,7 @@ button:hover {
 }
 
 .todo-item input {
-  margin-right: 8px; /* Add some space between the input field and buttons */
+  margin-right: 8px;
 }
 
 .buttons button {
@@ -98,14 +98,14 @@ button:hover {
 }
 
 .buttons button + button {
-  margin-left: 8px; /* Add some space between the buttons */
-}
+  margin-left: 8px;
+
+  /*--CODE FOR COMPLETE BUTTON--*/
 
 .completed {
   text-decoration: line-through;
 }
 
 
-/* ... Rest of the existing CSS ... */
 
 
